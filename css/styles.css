@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+    font-family: Georgia, serif;
+}
+
+nav {
+    background: white;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.05);
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 16px 0;
+    list-style: none;
+    justify-content: end;
+}
+
+li {
+    width: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
